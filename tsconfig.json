@@ -3,11 +3,14 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": false,
-    "strictNullChecks": true,
     "module": "amd",
     "target": "es5",
     "jsx": "react",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
-  }
+  },
+  "files": [
+    "typings/tsd.d.ts",
+    "node_modules/rxjs/Rx.d.ts"
+  ]
 }
