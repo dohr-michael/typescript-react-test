@@ -14,13 +14,17 @@
   "author": "dohrm",
   "license": "ISC",
   "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-beta.10",
     "babel-polyfill": "^6.9.1",
     "classnames": "^2.2.5",
+    "lodash": "^4.13.1",
     "moment": "^2.13.0",
     "normalize.css": "^4.1.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-router": "^2.4.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.10",
     "whatwg-fetch": "^1.0.0"
   },
   "devDependencies": {
@@ -40,6 +44,7 @@
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
+    "typings": "^1.3.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-notifier": "^1.3.0"

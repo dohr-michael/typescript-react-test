@@ -45,6 +45,9 @@ module.exports = {
         extensions: [ '', '.webpack.js', '.web.js', '.ts', '.tsx', '.js' ],
         root: './src'
     },
+    externals: {
+        "auth0-lock":  "Auth0Lock"
+    },
     sassLoader: {
         includePaths: [
             './node_modules'
@@ -64,6 +67,10 @@ module.exports = {
             {
                 test:   /\.(png|jpg|jpeg|gif|bmp)$/,
                 loader: 'file?name=images/[hash].[ext]'
+            },
+            {
+                test:   /\.json$/,
+                loader: 'file?name=resources/[name].[ext]'
             },
             {
                 test:   /\.(ttf|eot|otf|svg|woff(2)?)(\?[a-z0-9-\.=]+)?$/,
@@ -91,7 +98,8 @@ module.exports = {
                     } ),
 
                     new copyWebpack( [
-                        { from: './node_modules/normalize.css', to: '' }
+                        { from: './node_modules/normalize.css', to: '' },
+                        { from: './lib', to: 'lib' }
                     ] )
                 ].concat( plugins ),
     postcss:    () => {

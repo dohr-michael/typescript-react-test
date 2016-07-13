@@ -17,68 +17,23 @@
     "react-router/history.d.ts": {
       "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
     },
-    "rx/rx.d.ts": {
+    "core-js/core-js.d.ts": {
       "commit": "7ce2630b07ef481d6c5f262dcafe9c9e2feec446"
     },
-    "rx/rx-lite.d.ts": {
-      "commit": "7ce2630b07ef481d6c5f262dcafe9c9e2feec446"
+    "lodash/lodash.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
     },
-    "rx/rx.time.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
+    "moment/moment.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
     },
-    "rx/rx.all.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
+    "moment/moment-node.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
     },
-    "rx/rx.aggregates.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
+    "auth0.lock/auth0.lock.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
     },
-    "rx/rx.time-lite.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.async.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.async-lite.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.binding.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.binding-lite.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.coincidence-lite.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.virtualtime.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.joinpatterns.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.coincidence.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.testing.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.experimental.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.backpressure.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "rx/rx.backpressure-lite.d.ts": {
-      "commit": "3f97b234196b36a4cc9218e75c6d7e7e01dc8ac1"
-    },
-    "es6-collections/es6-collections.d.ts": {
-      "commit": "7ce2630b07ef481d6c5f262dcafe9c9e2feec446"
-    },
-    "es6-promise/es6-promise.d.ts": {
-      "commit": "7ce2630b07ef481d6c5f262dcafe9c9e2feec446"
-    },
-    "es6-shim/es6-shim.d.ts": {
-      "commit": "7ce2630b07ef481d6c5f262dcafe9c9e2feec446"
+    "auth0/auth0.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
     }
   }
 }
