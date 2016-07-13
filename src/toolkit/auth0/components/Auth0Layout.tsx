@@ -7,16 +7,14 @@ import * as Auth0Flux from './flux'
 
 export class Auth0Layout extends React.Component<{idToken:option.Option<string>, checkAuth:()=>void, openAuth:()=>void}, {}> {
 
-
     componentWillMount():void {
         this.props.checkAuth();
     }
 
     render():JSX.Element {
-        console.log('Auth0Layout');
-        console.log(this.props);
+        console.log('auth0layout#render');
         if(this.props.idToken.isEmpty()) {
-            setTimeout(() => this.props.openAuth(), 0);
+            this.props.openAuth();
             return (
                 <div>
                     <div id="login-container"></div>
@@ -31,7 +29,9 @@ export class Auth0Layout extends React.Component<{idToken:option.Option<string>,
 }
 
 const checkAuth = () => Auth0Flux.Actions.check.next();
-const openAuth = () => Auth0Flux.Actions.open.next();
+const openAuth = () => {
+    setTimeout(() => Auth0Flux.Actions.open.next(), 0)
+};
 
 export default Rxflux.connect((s:Auth0Flux.IState) => {
     return {
